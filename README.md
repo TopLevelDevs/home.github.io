@@ -1,1 +1,76 @@
-# home.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Level Developers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center p-6 bg-gray-800 shadow-lg">
+    <h1 class="text-2xl font-bold">Top Level Developers</h1>
+    <nav class="space-x-6">
+      <a href="#home" class="hover:text-blue-400">Home</a>
+      <a href="#apps" class="hover:text-blue-400">Apps</a>
+      <a href="#about" class="hover:text-blue-400">About</a>
+      <a href="#contact" class="hover:text-blue-400">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-20 px-6">
+    <h2 class="text-4xl md:text-6xl font-bold mb-6">Building Smart Mobile Experiences</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto mb-8">We create high-performance Android applications focused on security, speed, and user experience.</p>
+    <button class="bg-blue-500 px-6 py-3 rounded-2xl shadow-lg hover:bg-blue-600">View Our Apps</button>
+  </section>
+
+  <!-- Apps Section -->
+  <section id="apps" class="py-16 px-6 bg-gray-800">
+    <h3 class="text-3xl font-bold text-center mb-12">Our Apps</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-gray-900 p-6 rounded-2xl shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">VPN Secure App</h4>
+        <p class="text-gray-400 mb-4">Fast, secure and private browsing solution.</p>
+        <button class="bg-blue-500 px-4 py-2 rounded-xl">View on Play Store</button>
+      </div>
+
+      <div class="bg-gray-900 p-6 rounded-2xl shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Smart Notes AI</h4>
+        <p class="text-gray-400 mb-4">AI-powered notes and productivity tool.</p>
+        <button class="bg-blue-500 px-4 py-2 rounded-xl">View on Play Store</button>
+      </div>
+
+      <div class="bg-gray-900 p-6 rounded-2xl shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Future App</h4>
+        <p class="text-gray-400 mb-4">Coming soon...</p>
+        <button class="bg-gray-700 px-4 py-2 rounded-xl">Coming Soon</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">About Us</h3>
+    <p class="text-gray-400 max-w-3xl mx-auto">
+      Top Level Developers is a modern mobile app development company focused on delivering high-quality Android applications. We specialize in VPN technology, AI-powered apps, and scalable solutions.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 bg-gray-800 text-center">
+    <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
+    <p class="text-gray-400 mb-6">For business inquiries or support, reach out to us.</p>
+    <button class="bg-blue-500 px-6 py-3 rounded-2xl">Email Us</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-6 bg-gray-900 text-gray-500">
+    © 2026 Top Level Developers. All rights reserved.
+  </footer>
+
+</body>
+</html>
