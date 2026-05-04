@@ -1,28 +1,80 @@
-# NetAura VPN Account Deletion
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetAura VPN Account Deletion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            color: #1f2937;
+            background-color: #ffffff;
+        }
+        h1 {
+            color: #111827;
+        }
+        h2 {
+            margin-top: 24px;
+            color: #111827;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .email {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
-Effective date: May 4, 2026
+    <h1>NetAura VPN Account Deletion</h1>
+    <p><strong>Effective date:</strong> May 4, 2026</p>
 
-If you use NetAura VPN and want your VPN account and associated backend data deleted, you can request deletion by contacting:
+    <p>
+        If you use NetAura VPN and want your VPN account and associated backend data deleted,
+        you can request deletion by contacting:
+    </p>
 
-- Email: contact.topleveldevelopers@gmail.com
-- Subject line: `NetAura VPN Account Deletion Request`
+    <ul>
+        <li><strong>Email:</strong> <span class="email">contact.topleveldevelopers@gmail.com</span></li>
+        <li><strong>Subject line:</strong> NetAura VPN Account Deletion Request</li>
+    </ul>
 
-Please include enough information for us to identify your account, such as:
+    <p>Please include enough information for us to identify your account, such as:</p>
 
-- the app name: NetAura VPN
-- your VPN account ID, if available
-- the email address or contact channel you want us to use to confirm the request
+    <ul>
+        <li>the app name: NetAura VPN</li>
+        <li>your VPN account ID, if available</li>
+        <li>the email address or contact channel you want us to use to confirm the request</li>
+    </ul>
 
-What happens after a request:
+    <h2>What happens after a request</h2>
+    <ul>
+        <li>We will review the request and verify it where needed.</li>
+        <li>
+            We will delete or anonymize account-related backend data that is no longer required
+            for security, fraud prevention, legal compliance, or legitimate operational recordkeeping.
+        </li>
+        <li>
+            Data stored locally on your own device can also be removed by uninstalling the app
+            or clearing app storage in Android settings.
+        </li>
+    </ul>
 
-- We will review the request and verify it where needed.
-- We will delete or anonymize account-related backend data that is no longer required for security, fraud prevention, legal compliance, or legitimate operational recordkeeping.
-- Data stored locally on your own device can also be removed by uninstalling the app or clearing app storage in Android settings.
+    <h2>Retention exceptions</h2>
+    <p>
+        We may retain limited information where necessary for legal obligations, abuse prevention,
+        fraud prevention, dispute handling, or security investigations.
+    </p>
 
-Retention exceptions:
+    <h2>Questions</h2>
+    <p>
+        Contact: <span class="email">contact.topleveldevelopers@gmail.com</span>
+    </p>
 
-- We may retain limited information where necessary for legal obligations, abuse prevention, fraud prevention, dispute handling, or security investigations.
-
-Questions:
-
-- Contact contact.topleveldevelopers@gmail.com
+</body>
+</html>
