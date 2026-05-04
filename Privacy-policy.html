@@ -6,51 +6,41 @@
 <title>NetAura VPN Privacy Policy</title>
 
 <style>
-    :root {
-        --bg: #0B1220;
-        --panel: rgba(17, 24, 39, 0.75);
-        --accent: #3B82F6;
-        --text: #E5E7EB;
-        --subtext: #94A3B8;
-        --border: rgba(255,255,255,0.06);
-    }
-
     body {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        background: radial-gradient(circle at top, #111827, #020617);
-        color: var(--text);
+        background-color: #0B1220;
+        color: #E5E7EB;
         line-height: 1.6;
     }
 
     .container {
-        max-width: 920px;
+        max-width: 900px;
         margin: auto;
-        padding: 28px 18px;
+        padding: 24px;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 28px;
         color: #FFFFFF;
-        margin-bottom: 6px;
-        letter-spacing: -0.5px;
+        margin-bottom: 8px;
     }
 
     h2 {
-        margin-top: 30px;
+        margin-top: 28px;
+        color: #60A5FA;
         font-size: 20px;
-        color: var(--accent);
     }
 
     h3 {
         margin-top: 18px;
-        font-size: 15px;
         color: #93C5FD;
+        font-size: 16px;
     }
 
     p {
+        color: #CBD5F5;
         font-size: 14px;
-        color: var(--subtext);
     }
 
     ul {
@@ -58,28 +48,25 @@
     }
 
     li {
-        font-size: 14px;
-        color: var(--subtext);
         margin-bottom: 6px;
+        color: #CBD5F5;
+        font-size: 14px;
     }
 
-    .glass {
-        background: var(--panel);
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
-        border-radius: 20px;
-        border: 1px solid var(--border);
+    .card {
+        background: #111827;
         padding: 18px;
-        margin-top: 18px;
+        border-radius: 16px;
+        margin-top: 16px;
     }
 
     .highlight {
-        color: var(--accent);
+        color: #60A5FA;
         font-weight: 600;
     }
 
     a {
-        color: var(--accent);
+        color: #60A5FA;
         text-decoration: none;
     }
 
@@ -87,27 +74,10 @@
         text-decoration: underline;
     }
 
-    .divider {
-        height: 1px;
-        background: var(--border);
-        margin: 22px 0;
-    }
-
     .footer {
         margin-top: 40px;
-        font-size: 12px;
-        color: #6B7280;
-        text-align: center;
-    }
-
-    .badge {
-        display: inline-block;
-        background: rgba(59,130,246,0.15);
-        color: var(--accent);
-        padding: 4px 10px;
-        border-radius: 999px;
-        font-size: 12px;
-        margin-top: 6px;
+        font-size: 13px;
+        color: #94A3B8;
     }
 </style>
 </head>
@@ -115,104 +85,121 @@
 <body>
 <div class="container">
 
-<h1>NetAura VPN</h1>
-<div class="badge">Privacy Policy</div>
+<h1>NetAura VPN Privacy Policy</h1>
 <p><strong>Effective date:</strong> May 4, 2026</p>
 
-<p>This policy explains how <span class="highlight">Top Level Devs</span> handles data in <span class="highlight">NetAura VPN</span>.</p>
+<p>This Privacy Policy describes how <span class="highlight">Top Level Devs</span> ("we", "us", or "our") handles information in connection with the <span class="highlight">NetAura VPN</span> mobile application.</p>
 
-<div class="glass">
-<strong>Contact</strong>
+<div class="card">
+<p><strong>Contact</strong></p>
 <ul>
+<li>Developer: Top Level Developers</li>
 <li>Email: contact.topleveldevelopers@gmail.com</li>
 <li>Website: <a href="https://topleveldevelopers.netlify.app">topleveldevelopers.netlify.app</a></li>
 </ul>
 </div>
 
 <h2>1. Scope</h2>
-<p>Applies to VPN functionality, subscriptions, and ads.</p>
+<p>This policy applies to NetAura VPN, including VPN functionality, subscriptions, and ads.</p>
 
 <h2>2. Data We Handle</h2>
 
-<h3>VPN Account Data</h3>
+<h3>A. VPN Account Data</h3>
 <ul>
-<li>Account ID, username, password</li>
+<li>VPN account ID, username, password</li>
 <li>WireGuard configurations</li>
 </ul>
+<p>Used to provide VPN connections. Stored locally and shared with backend providers.</p>
 
-<h3>Server Data</h3>
+<h3>B. Server Data</h3>
 <ul>
-<li>Server locations and configs</li>
+<li>Server IDs, locations, configs</li>
 <li>Latency measurements</li>
 </ul>
+<p>Used for server selection, caching, and recommendations.</p>
 
-<h3>App Preferences</h3>
+<h3>C. App Preferences</h3>
 <ul>
-<li>Auto-connect, selected server</li>
-<li>Favorites and cached data</li>
+<li>Auto-connect, protocol, selected server</li>
+<li>Favorites, cached servers</li>
+<li>Ad frequency controls</li>
 </ul>
+<p>Stored locally for app functionality and personalization.</p>
 
-<h3>Subscriptions</h3>
-<p>Handled via Google Play Billing.</p>
+<h3>D. Subscription Data</h3>
+<p>Handled via Google Play Billing. Includes purchase status and entitlements.</p>
 
-<h3>Advertising</h3>
+<h3>E. Ads (AdMob)</h3>
 <ul>
 <li>Device identifiers</li>
-<li>IP & approximate location</li>
-<li>Ad interaction data</li>
+<li>IP address & approximate location</li>
+<li>Ad interactions</li>
 </ul>
 
-<div class="glass">
-<p>
-<a href="https://policies.google.com/privacy">Google Privacy Policy</a><br>
-<a href="https://policies.google.com/technologies/partner-sites">How Google uses data</a>
-</p>
-</div>
+<p>See:</p>
+<ul>
+<li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+<li><a href="https://policies.google.com/technologies/partner-sites">How Google uses data</a></li>
+</ul>
 
-<h3>VPN Traffic</h3>
-<p>No browsing data logging is claimed unless explicitly updated.</p>
+<h3>F. VPN Traffic</h3>
+<p>We do not claim to log browsing activity or traffic content unless explicitly implemented and updated here.</p>
 
 <h2>3. Permissions</h2>
-<p>No access to camera, mic, contacts, or precise location.</p>
+<p>The app does not request access to contacts, camera, microphone, or precise location. It uses network and VPN permissions only.</p>
 
-<h2>4. Collection</h2>
+<h2>4. How Data Is Collected</h2>
 <ul>
-<li>App-generated data</li>
-<li>Local storage</li>
-<li>Google Play</li>
-<li>AdMob</li>
+<li>App-generated VPN account data</li>
+<li>Local device storage</li>
+<li>Google Play (subscriptions)</li>
+<li>AdMob (ads)</li>
 </ul>
 
-<h2>5. Sharing</h2>
+<h2>5. Legal Basis</h2>
+<p>We process data to provide services, comply with law, prevent abuse, and (where required) based on user consent.</p>
+
+<h2>6. Data Sharing</h2>
 <ul>
-<li>VPN backend</li>
-<li>Google services</li>
-<li>Legal compliance if required</li>
+<li>VPN backend providers</li>
+<li>Google Play Billing</li>
+<li>Google AdMob partners</li>
+<li>Legal authorities if required</li>
 </ul>
+<p>We do not sell personal data.</p>
 
-<h2>6. Retention</h2>
-<p>Data persists only as needed; local data removed on uninstall.</p>
+<h2>7. Data Retention</h2>
+<p>Data is kept only as long as necessary. Local data stays until app uninstall or clearing storage.</p>
 
-<h2>7. User Controls</h2>
+<h2>8. User Controls</h2>
 <ul>
 <li>Uninstall app</li>
-<li>Clear storage</li>
+<li>Clear app data</li>
+<li>Manage ad preferences</li>
 <li>Request deletion via email</li>
 </ul>
 
-<h2>8. Security</h2>
-<p>Uses secure storage and HTTPS where applicable.</p>
+<h2>9. Security</h2>
+<p>We use reasonable safeguards such as secure storage and HTTPS transmission.</p>
 
-<h2>9. Children</h2>
-<p>Not intended for children.</p>
+<h2>10. Children</h2>
+<p>The app is not intended for children.</p>
 
-<h2>10. Updates</h2>
-<p>This policy may change; latest version will be published.</p>
+<h2>11. International Transfers</h2>
+<p>Data may be processed globally depending on infrastructure providers.</p>
 
-<div class="divider"></div>
+<h2>12. Third-Party Services</h2>
+<ul>
+<li>Google Play Billing</li>
+<li>Google AdMob</li>
+<li>VPN backend providers</li>
+</ul>
 
-<div class="glass">
-<strong>Contact</strong>
+<h2>13. Changes</h2>
+<p>This policy may be updated. The latest version will always be published.</p>
+
+<h2>14. Contact</h2>
+<div class="card">
 <ul>
 <li>Top Level Developers</li>
 <li>Email: contact.topleveldevelopers@gmail.com</li>
@@ -220,7 +207,7 @@
 </ul>
 </div>
 
-<p class="footer">© 2026 NetAura VPN</p>
+<p class="footer">© 2026 NetAura VPN. All rights reserved.</p>
 
 </div>
 </body>
